@@ -1,59 +1,71 @@
-# DemoQA UI Automation with Selenium and JUnit
 
-This project is a complete web UI automation test suite built using **Java**, **Selenium WebDriver**, and **JUnit 5**. The test cases are designed around the components available on [DemoQA](https://demoqa.com), a demo site commonly used for practicing test automation.
+DemoQA UI Automation Using Selenium and JUnit
+This project is a complete UI automation test suite built with Java, Selenium WebDriver, and JUnit 5. It focuses on automating and testing different components from DemoQA, a popular practice site for web testing.
 
-## 🧪 Project Overview
+🔍 Project Objective
+To demonstrate hands-on experience in:
 
-The purpose of this project is to demonstrate hands-on experience with:
-- Automated UI interactions using Selenium WebDriver
-- JUnit-based test lifecycle management
-- Assertions and validations
-- Handling browser windows, frames, alerts, dropdowns, and more
+Automating UI interactions with Selenium WebDriver
 
-## ✅ Features Covered
+Structuring tests using JUnit 5
 
-### 📄 General Website Automation
-- Visit and validate page titles
-- Fill out and submit forms
-- Extract and verify submitted data
+Performing validations through assertions
 
-### 🖱️ Mouse and Keyboard Actions
-- Double-click, right-click, and single click using the `Actions` class
-- Mouse hover over multiple menu items (AIUB site)
-- Keyboard input using `Keys` (e.g., date selection, dropdowns)
+Handling alerts, iframes, windows, dropdowns, mouse/keyboard actions, and more
 
-### 📊 Table Data Extraction
-- Scrape and print dynamic table data from the web page
-- Locate table rows and cells using CSS selectors
+✅ Key Features
+🌐 General Automation
+Navigate to pages and verify titles
 
-### ⚠️ Alert and Frame Handling
-- Accept browser alerts
-- Switch between iframes and return to default content
+Fill out and submit forms
 
-### 🧭 Dropdown and Date Picker Interaction
-- Interact with standard and custom dropdowns
-- Set date using the date picker field
+Extract and validate input data
 
-### 🔗 Multi-Window and Tab Handling
-- Open new tabs and windows
-- Switch between window handles and validate content
+🖱️ Mouse & Keyboard Actions
+Perform double-click, right-click, and single-click using the Actions class
 
-## 🛠️ Technologies Used
+Hover over menu items (example: AIUB Website)
 
-| Tool/Framework | Purpose                        |
-|----------------|--------------------------------|
-| Java           | Main programming language      |
-| Selenium WebDriver | UI automation tool         |
-| JUnit 5        | Test structure and assertions  |
-| ChromeDriver   | Browser automation             |
+Use keyboard input with Keys class (e.g., dropdown and date picker interaction)
 
-## 🔧 Prerequisites
+📊 Web Table Interaction
+Scrape and display dynamic table content
 
-- Java JDK 11 or higher installed  
-- Chrome browser installed  
-- ChromeDriver added to system `PATH`  
-- IntelliJ IDEA or Eclipse IDE  
-- JUnit 5 and Selenium libraries configured in your project
+Locate rows and cells using CSS selectors
+
+⚠️ Alerts & Frames
+Handle browser alerts
+
+Switch between iframes and return to the main content
+
+📅 Dropdowns & Date Pickers
+Interact with both standard and custom dropdown menus
+
+Select dates using input or calendar widget
+
+🪟 Window & Tab Management
+Open and manage multiple browser tabs or windows
+
+Switch between them using window handles
+
+🛠️ Tools & Technologies
+Tool	Purpose
+Java	Programming language
+Selenium WebDriver	Browser automation
+JUnit 5	Test framework
+ChromeDriver	Browser driver for Chrome
+
+⚙️ Requirements
+Before running the tests, ensure you have:
+
+Java JDK 11 or higher
+
+Google Chrome browser installed
+
+ChromeDriver added to system PATH
+
+IDE (e.g., IntelliJ IDEA or Eclipse)
+
 
 ---
 
